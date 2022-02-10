@@ -1,0 +1,49 @@
+body{
+    background-color: #191970;
+}
+.container > div > img{
+    border-radius: 10px;
+    min-height: 150px;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 150px;
+}
+
+
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+    color: aliceblue;
+}
+
+h3{
+    color: azure;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+    flex-flow: row wrap;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,200px) ;
+    grid-gap: 10px;
+   
+}
+
+.flex2 {
+    display: flex;
+    border-radius: 10px;
+    gap: 10px;
+    flex-flow: row wrap;
+
+}
