@@ -6,12 +6,15 @@
         <title>Hotstarclone</title>
 
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         
     </head>
     <body>
        
+       
        <nav class="navbar">
-          <img src="images/disney.png" class="logo" alt="">
+          <img src="images/logo.png" class="logo" alt="">
           <ul class="nav-links">
              <li class="nav-items"><a href="#">TV</a></li>
              <li class="nav-items"><a href="#">Movies</a></li>
@@ -26,440 +29,74 @@
           </div>
        </nav>
 
-       <div class="container-carousel">
-          <div class="carousel">
-             <div class="slider">
-                <div class="slide-content">
-                   <h1 class="movie-title">A Thursday</h1>
+       <div class="carousel" data-flickity='{ "autoPlay": true }'>
+           
+
+               <div class="cell">
+                   <img src="sliderimages/slider1.png" alt="">
+               </div>
+               <div class="cell">
+                <img src="sliderimages/slider2.png" alt="">
+               </div> 
+               <div class="cell">
+                <img src="sliderimages/slider3.png" alt="">
+               </div> 
+               <div class="cell">
+                <img src="sliderimages/slider4.png" alt="">
+               </div>
+               <div class="cell">
+                <img src="sliderimages/slider5.png" alt="">
                 </div>
-                <img src="images/sliderimg6.jpg" alt="">
-             </div>
-          </div>
-       </div>
+           </div>
+       
 
       
       
        <div class="container">
         <h3>Tamil Movies</h3>
-        <div class="container flex">
-        <div>
-           <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/3505/133505-h">
+        <div class="container-tamil">
         </div>
-        <div>
-           <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/7772/1097772-h-510d7fdd9e3e">
-        </div>
-        <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/5813/1085813-h-e0f54a881658">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/8366/928366-h">
-         </div><div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/272/1050272-h-3391ad0457ca">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/7897/977897-h">
-         </div><div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/9189/1000059189/1000059189-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/2465/1000172465/1000172465-h">
-         </div><div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4454/284454-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1108/1071108-h-59c56f064e01">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/2937/1092937-h-c5a68e3db9f9">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/5287/1105287-h-0521ffe3861e">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/7598/677598-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/460/1080460-h-01c344482e4a">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/9725/439725-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/3290/853290-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/7834/907834-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/2607/1062607-h-fa693eabb41d">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/6666/826666-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/6247/1770016247/1770016247-h">
-         </div>
-
-        </div>
-        <br>
-        <br><br>
+        
         <h3>Disney+ Movies</h3>
-        <div class="container grid">
-        <div>
-           <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4600/674600-h">
+        <div class="container-disney">
         </div>
-        <div>
-           <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1341/1091341-h-0c4699c4630e">
-        </div>
-        <div>
-           <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/6103/686103-h">
-        </div>
-        <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4425/674425-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4396/674396-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4563/674563-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4539/674539-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4596/674596-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4662/674662-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4384/674384-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4439/674439-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4554/674554-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/6878/1036878-h-3da0d7e00398">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4658/674658-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4565/674565-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4556/674556-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4510/674510-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4531/674531-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4517/674517-h">
-         </div>
-         <div>
-            <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4610/674610-h">
-         </div>
-      
-    </div>
-
-    <br>
-    <br><br>
 
     <h3>Malayalam</h3>
-    <div class="container flex2">
-    <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/1352/1000081352/1000081352-h">
+    <div class="container-malayalam">
     </div>
-    <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/1195/1000091195/1000091195-h">
+
+<h3>Hindi Movies</h3>
+    <div class="container-hindi">
+    
     </div>
-    <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/7077/1057077-h-ae6b5b69076a">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/6926/1000156926/1000156926-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/8379/1000118379/1000118379-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/4317/1000164317/1000164317-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/8898/68898-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/6111/1000196111/1000196111-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/4273/1000154273/1000154273-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/9000/549000-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/7633/1000157633/1000157633-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/1674/1000081674/1000081674-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/2378/1000082378/1000082378-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/6/1000160006/1000160006-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/1261/1000081261/1000081261-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/8444/1000188444/1000188444-h">
-     </div>
-     <div>
-      <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/6939/106939-h">
+
+<h3>Bengali Movies</h3>
+    <div class="container-bengali">
+   
     </div>
-    <div>
-      <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1997/241997-h">
+
+<h3>Telugu Movies</h3>
+    <div class="container-telugu">
+    
     </div>
-    <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/1695/1000101695/1000101695-h">
+
+<h3>Kannada Movies</h3>
+    <div class="container-kannada">
+    
     </div>
-    <div>
-      <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/5275/1105275-h-db6711300155">
-    </div>
+
 </div>
 
-<br><br><br>
-<h3>Hindi Movies</h3>
-    <div class="container grid2">
-    <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/6715/1106715-h-7b88aaf59197">
-    </div>
-    <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/87/1100087-h-70e9725e4a9b">
-    </div>
-    <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/2068/1062068-h-54b155e41999">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/3913/1073913-h-db43b82e4b2e">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/4296/1000194296/1000194296-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/2886/892886-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/8284/388284-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1527/571527-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4051/1054051-h-aad5a3d35219">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/6826/556826-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/5483/1770015483/1770015483-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1534/1101534-h-f8ea098d7c21">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4290/754290-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4595/674595-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/454/30454-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/9438/529438-h">
-     </div>
-     <div>
-      <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/5450/305450-h">
-    </div>
-    </div>
-
-    <br><br><br>
-<h3>Bengali Movies</h3>
-    <div class="container flex3">
-    <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/7568/1027568-h-e8d7bfec07b5">
-    </div>
-    <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/5261/445261-h">
-    </div>
-    <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/7014/1000207014/1000207014-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/6115/636115-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/4049/1000214049/1000214049-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/688/40688-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/5095/565095-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/2022/132022-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/2331/292331-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1777/811777-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/8485/658485-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/8431/548431-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/7924/607924-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/2732/1770002732/1770002732-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/9288/529288-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/8542/568542-h">
-     </div>
-     <div>
-      <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/5752/1000215752/1000215752-h">
-    </div>
-    </div>
-
-    <br><br><br>
-<h3>Telugu Movies</h3>
-    <div class="container grid2">
-    <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/1300/581300-h">
-    </div>
-    <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/4338/1000074338/1000074338-h">
-    </div>
-    <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/2829/552829-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/4328/1000074328/1000074328-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/7285/457285-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/4327/1000074327/1000074327-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/4358/1000164358/1000164358-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/1807/1100001807/1100001807-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/4125/1000064125/1000064125-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/6892/1000056892/1000056892-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/5071/1000155071/1000155071-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/3435/603435-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/5960/1000055960/1000055960-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/204/1000070204/1000070204-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/4497/1000074497/1000074497-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/4118/1000064118/1000064118-h">
-     </div>
-     <div>
-      <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/3140/1770003140/1770003140-h">
-    </div>
-    </div>
-
-    <br><br><br>
-<h3>Kannada Movies</h3>
-    <div class="container flex3">
-    <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/6633/1000186633/1000186633-h">
-    </div>
-    <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/3002/1000083002/1000083002-h">
-    </div>
-    <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/74/1000060074/1000060074-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/9860/169860-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/4915/1000154915/1000154915-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4336/534336-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/8814/528814-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/1989/1100001989/1100001989-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/6631/1000096631/1000096631-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/1021/1000061021/1000061021-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/3000/1000083000/1000083000-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/4082/1000044082/1000044082-h">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/5285/1100005285/1100005285-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/4072/1000044072/1000044072-h">
-     </div>
-     <div>
-       <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/7277/1057277-h-bf4e2ff1932d">
-     </div>
-     <div>
-        <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/old_images/MOVIE/3005/1000083005/1000083005-h">
-     </div>
-     <div>
-      <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/2502/782502-h">
-    </div>
-    </div>
-
-       </div>
+       <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+       <script src="script.js">
+           $('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  wrapAround:true,
+  freeScroll: true
+});
+       </script>
+     
 
     </body>
 </html>
