@@ -334,21 +334,7 @@ function kannadaMovies(){
 }
 kannadaMovies()
 
-function slideright(){
-    imageSlides[currentIndex + 1].style.display = "block";
-    imageSlides[currentIndex].style.display = "none";
-    currentIndex++; 
-}
 
-function slideleft(){
-    imageSlides[currentIndex -1].style.display = "block";
-    imageSlides[currentIndex].style.display = "none";
-    currentIndex--;
-
-}
-
-NextButton.addEventListener("click", slideright);
-PreviousButton.addEventListener("click", slideleft);
 
 
 
