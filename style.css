@@ -10,18 +10,47 @@ body{
     position: relative;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.title{
+    margin-top: 1%;
+    color: #fff;
+    padding-left: 1%;
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: visible;
+    scroll-behavior: smooth;
+}
 .container img {
-   
+    width: 190px;
     height: 180px;
-    width: 120px;
-    border-radius: 10px;
+   border-radius: 10px;
     min-width: 100%;
     max-width: 100%;
     min-height: 100%;
     max-height: 100%;
-    
+    transition: transform .4s linear;
+    cursor: pointer;
+    object-fit:cover;
+    align-items: center;
     
 }
+.container::-webkit-scrollbar{
+    overflow: hidden;
+    display: none;
+    
+
+}
+.container img:hover{
+    transform: scale(1.1);
+
+}
+
+
 
 .navbar{
     width: 100%;
@@ -112,19 +141,10 @@ body{
     font-size: 80px;
     color: white;
   }
-  
-h3{
-    margin-top: 60px;
-    color: azure;
-    font-weight: 100;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+  .container-tamil,.container-disney,.container-malayalam,.container-hindi,.container-bengali,.container-telugu,.container-kannada{
+      display: flex;
+      gap: 10px;
+  } 
 
-.container-tamil, .container-disney, .container-malayalam, .container-hindi, .container-bengali,.container-kannada, .container-telugu {
-    
-    display: flex;
-    gap: 10px;
-    
-}
 
 

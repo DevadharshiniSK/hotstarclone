@@ -1,5 +1,6 @@
 let movieContainer1 = document.querySelector(".container>.container-tamil");
 let arr1 = [
+   
     {
         "src": "https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/3505/133505-h"
     },
@@ -29,7 +30,7 @@ let arr1 = [
     },    
     {
         "src": "https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/460/1080460-h-01c344482e4a"
-    }
+    },
 ];
 
 
@@ -332,6 +333,22 @@ function kannadaMovies(){
 })
 }
 kannadaMovies()
+
+function slideright(){
+    imageSlides[currentIndex + 1].style.display = "block";
+    imageSlides[currentIndex].style.display = "none";
+    currentIndex++; 
+}
+
+function slideleft(){
+    imageSlides[currentIndex -1].style.display = "block";
+    imageSlides[currentIndex].style.display = "none";
+    currentIndex--;
+
+}
+
+NextButton.addEventListener("click", slideright);
+PreviousButton.addEventListener("click", slideleft);
 
 
 
